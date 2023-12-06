@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Access</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url("images/log.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3897f0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .signup-link {
+            margin-top: 20px;
+            color: #003569;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <!-- Instagram logo or your custom logo -->
+            <img src="images/logo.png" alt="" width="100">
+        </div>
+        <form action="hitung.html" method="post">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="password" class="input-field" placeholder="Password" required>
+            <button href="" type="submit" class="login-button">Log In</button>
+        </form>
+        <br>
+        <a href="#" class="signup-link">Don't have an account? Sign up</a>
+    </div>
+</body>
+</html>
